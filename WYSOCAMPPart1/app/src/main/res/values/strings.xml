@@ -1,0 +1,10 @@
+<resources>
+    <string name="select">Select preferred type of item</string>
+    <string name="app_name">WYS Orientation Camp</string>
+    <string name="get_type_A">Restaurant</string>
+    <string name="get_type_B">Mission</string>
+    <string name="get_type_C">Battle</string>
+    <string name="get_item">Get Item</string>
+    <string name="item">You received: </string>
+
+</resources>

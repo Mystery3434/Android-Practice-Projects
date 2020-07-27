@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/centered_pubg"
+    android:id="@+id/master"
+    android:layout_width="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:id="@+id/image_container"
+        android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:text="@string/get_type_A"
+            android:textStyle="bold"
+            android:id="@+id/restaurant_button"
+
+
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:id="@+id/mission_button"
+            android:text="@string/get_type_B"
+            android:textStyle="bold"
+            android:onClick="clickTypeB"
+
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:id="@+id/battle_button"
+            android:text="@string/get_type_C"
+            android:textStyle="bold"
+            android:onClick="clickTypeC"
+
+            />
+
+    </LinearLayout>
+
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:id="@+id/item_image"
+            />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
